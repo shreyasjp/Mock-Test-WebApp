@@ -1,0 +1,23 @@
+# Django
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/*
+staticfiles/*
+
+# Python
+*.py[cod]
+*$py.class
+
+# Virtual environment
+mock_test_venv/
+ENV/
+
+# VS Code
+.vscode/
+
+# Environment variables
+.env
+*.env
