@@ -1,6 +1,6 @@
 # Mock Test Platform
 
-Copyright (c) 2024 @shreyasjp
+Copyright (c) 2024 Shreyas Jayaprakash
 
 ## Overview
 
@@ -33,10 +33,6 @@ This project is licensed under the GNU Affero General Public License v3.0. See t
 
 Detailed instructions on how to set up and run this project will be provided as development progresses.
 
-## Contributing (Coming Soon)
-
-Contributions are welcome! Please check back for our contribution guidelines in the future.
-
 ## Contact
 
-For questions or feedback, please contact Shreyas at shreyasjayaprakashcr7@gmail.com.
+For questions or feedback, please contact Shreyas Jayaprakash at shreyasjayaprakashcr7@gmail.com.

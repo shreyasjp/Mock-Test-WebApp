@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+
+<!--
+ Copyright (C) 2024 Shreyas Jayaprakash
+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU Affero General Public License as
+ published by the Free Software Foundation, either version 3 of the
+ License, or (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU Affero General Public License for more details.
+
+ You should have received a copy of the GNU Affero General Public License
+ along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock Test App</title>
+    <script src="https://kit.fontawesome.com/db3ae7e166.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="base.css">
+</head>
+<body class="light">
+    <div class="navbar">
+        <div class="navbar-leading">
+            <div class="logo">
+                <img src="" alt="MockTest">
+            </div>
+        </div>
+        <div class="navbar-trailing">
+            <div class="navbar-actions">
+                <a href="#" class="navbar-action-button action-button">Sign Out</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="test-header">
+            <p class="test-title">GENERAL KNOWLEDGE MOCK TEST I</p>
+            <p class="test-timer">Time Left: <span id="timer">00:08:36</span></p>
+        </div>
+        <div class="test-screen">
+            <div class="question-section">
+                <div class="question-header">
+                    <p>Question 17</p>
+                </div>
+                <div class="question">
+                    <p>What is the capital city of India?</p>
+                </div>
+                <div class="answers">
+                    <div class="answer">
+                        <input type="radio" name="answer" id="answer1" value="answer1">
+                        <label for="answer1">New Delhi</label>
+                    </div>
+                    <div class="answer">
+                        <input type="radio" name="answer" id="answer2" value="answer2">
+                        <label for="answer2">Mumbai</label>
+                    </div>
+                    <div class="answer">
+                        <input type="radio" name="answer" id="answer3" value="answer3">
+                        <label for="answer3">Chennai</label>
+                    </div>
+                    <div class="answer">
+                        <input type="radio" name="answer" id="answer4" value="answer4">
+                        <label for="answer4">Kolkata</label>
+                    </div>
+                </div>
+            </div>
+            <div class="border-div"></div>
+            <div class="answered-section">
+                <div class="question-markers">
+                    <div class="question-marker" style="background-color: lightgreen;">1</div>
+                    <div class="question-marker" style="background-color: lightcoral;">2</div>
+                    <div class="question-marker" style="background-color: lightgreen;">3</div>
+                    <div class="question-marker" style="background-color: rgb(224, 216, 134);">4</div>
+                    <div class="question-marker" style="background-color: lightgreen;">5</div>
+                    <div class="question-marker" style="background-color: lightgreen;">6</div>
+                    <div class="question-marker" style="background-color: rgb(224, 216, 134);">7</div>
+                    <div class="question-marker" style="background-color: lightcoral;">8</div>
+                    <div class="question-marker" style="background-color: lightblue;">9</div>
+                    <div class="question-marker" style="background-color: lightgreen;">10</div>
+                    <div class="question-marker" style="background-color: lightgreen;">11</div>
+                    <div class="question-marker" style="background-color: lightgreen;">12</div>
+                    <div class="question-marker" style="background-color: lightblue;">13</div>
+                    <div class="question-marker" style="background-color: lightblue;">14</div>
+                    <div class="question-marker" style="background-color: lightblue;">15</div>
+                    <div class="question-marker" style="background-color: lightblue;">16</div>
+                    <div class="question-marker" style="background-color: lightgreen;">17</div>
+                    <div class="question-marker" style="background-color: lightcoral;">18</div>
+                    <div class="question-marker" style="background-color: lightcoral;">19</div>
+                    <div class="question-marker" style="background-color: lightcoral;">20</div>
+                    <div class="question-marker" style="background-color: lightcoral;">21</div>
+                    <div class="question-marker" style="background-color: lightcoral;">22</div>
+                    <div class="question-marker" style="background-color: lightcoral;">23</div>
+                    <div class="question-marker" style="background-color: lightcoral;">24</div>
+                    <div class="question-marker" style="background-color: lightcoral;">25</div>
+                </div>
+                <div class="answered-stats">
+                    <div class="answered-stat-1 answered-stat">8</div>
+                    <div class="answered-stat-2 answered-stat">5</div>
+                    <div class="answered-stat-3 answered-stat">2</div>
+                    <div class="answered-stat-4 answered-stat">10</div>                    
+                </div>
+                <div class="answered-stats-legend">
+                    <div class="answered-stats-legend-item" style="color: lightgreen;">
+                        Answered
+                    </div> |
+                    <div class="answered-stats-legend-item" style="color: lightblue;">
+                        Flagged
+                    </div> |
+                    <div class="answered-stats-legend-item" style="color: rgb(224, 216, 134);">
+                        Answered Flagged
+                    </div> |
+                    <div class="answered-stats-legend-item" style="color: lightcoral;">
+                        Unattended
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-leading">
+            <div class="footer-copyright">
+                <p>&copy; 2024 Shreyas Jayaprakash | <a class="footer-leading-action-button action-button" target="_blank" href="http://github.com/shreyasjp">@shreyasjp</a></p>       
+            </div>
+        </div>
+        <p class="source-code"><a class="action-button" target="_blank" href="https://github.com/shreyasjp/Mock-Test-WebApp">Source</a> (Licensed under GNU Affero General Public License v3.0)</p>
+        <div class="footer-trailing">
+            <div class="footer-trailing-actions">
+                <a href="#" class="footer-trailing-action-button action-button icon"><i class="fa fa-youtube-play" aria-hidden="true"><!-- YouTube --></i></a>
+                <a href="#" class="footer-trailing-action-button action-button icon"><i class="fa-brands fa-x-twitter"><!-- X --></i></a>
+                <a href="#" class="footer-trailing-action-button action-button icon"><i class="fa fa-telegram" aria-hidden="true"><!-- Telegram --></i></a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
