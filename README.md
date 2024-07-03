@@ -1,6 +1,6 @@
 # Mock Test Platform
 
-Copyright (c) 2024 Shreyas Jayaprakash
+Copyright (c) 2024 [@shreyasjp](https://github.com/shreyasjp)
 
 ## Overview
 
